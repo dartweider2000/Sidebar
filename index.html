@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+   <html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <link rel="stylesheet" href="./styles.css">
+      <title>Sidebar</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <main class="main">
+            <div class="sidebar _close">
+               <div class="sidebar__header header-sidebar">
+                  <a href="#" class="header-sidebar__logo">
+                     <div class="header-sidebar__icon bx bxl-postgresql bx_flex"></div>
+                     <div class="header-sidebar__text">CodeLab</div>
+                  </a>
+                  <button class="header-sidebar__burger bx bx-menu bx_width bx_abs"></button>
+                  <div class="header-sidebar__toollip toollip toollip_burger">Toggle menu</div>
+               </div>
+               <div class="sidebar__search search-sidebar">
+                  <button class="search-sidebar__search bx bx-search bx_flex"></button>
+                  <input type="text" class="search-sidebar__input" placeholder="Search...">
+                  <div class="search-sidebar__toollip toollip toollip_search">Search</div>
+               </div>
+               <nav class="sidebar__menu menu-sidebar">
+                  <ul class="menu-sidebar__list">
+                     <li class="menu-sidebar__item">
+                        <a href="#" class="menu-sidebar__link">
+                           <div class="menu-sidebar__icon bx bx-home bx_flex"></div>
+                           <div class="menu-sidebar__text">Dashboard</div>
+                        </a>
+                     </li>
+                     <li class="menu-sidebar__item">
+                        <a href="#" class="menu-sidebar__link">                        
+                           <div class="menu-sidebar__icon bx bx-bar-chart-alt-2 bx_flex"></div>
+                           <div class="menu-sidebar__text">Revenue</div>
+                        </a>
+                     </li>
+                     <li class="menu-sidebar__item">
+                        <a href="#" class="menu-sidebar__link">                          
+                           <div class="menu-sidebar__icon bx bx bx-bell bx_flex"></div>
+                           <div class="menu-sidebar__text">Notification</div>
+                        </a>
+                     </li>
+                     <li class="menu-sidebar__item">
+                        <a href="#" class="menu-sidebar__link">                          
+                           <div class="menu-sidebar__icon bx bx-line-chart bx_flex"></div>
+                           <div class="menu-sidebar__text">Analitic</div>
+                        </a>
+                     </li>
+                     <li class="menu-sidebar__item">
+                        <a href="#" class="menu-sidebar__link">                      
+                           <div class="menu-sidebar__icon bx bx-heart bx_flex"></div>
+                           <div class="menu-sidebar__text">Liked</div>
+                        </a>
+                     </li>
+                     <li class="menu-sidebar__item">
+                        <a href="#" class="menu-sidebar__link">                 
+                           <div class="menu-sidebar__icon bx bx-wallet bx_flex"></div>
+                           <div class="menu-sidebar__text">Wallet</div>
+                        </a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="sidebar__footer footer-sidebar">
+                  <div class="footer-sidebar__profile profile-footer-sidebar">
+                     <a href="#" class="profile-footer-sidebar__user">
+                        <div class="profile-footer-sidebar__avatar img">
+                           <img src="./img/avatar.webp" alt="avatar">
+                        </div>
+                        <div class="profile-footer-sidebar__decription">
+                           <div class="profile-footer-sidebar__name">Nikita</div>
+                           <div class="profile-footer-sidebar__job">Strudent</div>
+                        </div>
+                     </a>
+                     <a href="#" class="profile-footer-sidebar__icon-out bx bx-log-out bx_width bx_abs"></a>
+                     <div class="profile-footer-sidebar__toollip toollip toollip_out">Log out</div>
+                  </div>
+                  <div class="footer-sidebar__mode mode-footer-sidebar">
+                     <div class="mode-footer-sidebar__description">
+                        <div class="mode-footer-sidebar__indicator">                      
+                           <div class="mode-footer-sidebar__icon-sun bx bx-sun bx_width"></div>                       
+                           <div class="mode-footer-sidebar__icon-moon bx bx-moon bx_width"></div>
+                        </div>
+                        <div class="mode-footer-sidebar__label">Dark mode</div>
+                     </div>
+                     <button class="mode-footer-sidebar__toggle">
+                        <input type="checkbox" class="mode-footer-sidebar__checkbox" name="toggle-theme-mode">
+                     </button>
+                     <div class="mode-footer-sidebar__toollip toollip toollip_toggle">Toggle theme mode</div>
+                  </div>
+               </div>
+            </div>
+         </main>
+      </div>
+      <script src="./main.js"></script>
+   </body>
+</html>
